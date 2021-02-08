@@ -1,0 +1,27 @@
+{
+  "name": "axios_allure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yakristinaya/axios_allure.git"
+  },
+  "keywords": [
+    "codeceptjs",
+    "plugin",
+    "allure",
+    "report",
+    "axios",
+    "attachment"
+  ],
+  "author": "KristinaYa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yakristinaya/axios_allure/issues"
+  },
+  "homepage": "https://github.com/yakristinaya/axios_allure#readme"
+}
