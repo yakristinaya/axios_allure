@@ -1,5 +1,6 @@
-const { container } = require('codeceptjs')
-const axios = require('codeceptjs/node_modules/axios').default
+const { container } = require('../../codeceptjs')
+const axios = require('../../codeceptjs/node_modules/axios').default
+
 
 axios.interceptors.request.use(function (config) {
   const allure = container.plugins('allure')
