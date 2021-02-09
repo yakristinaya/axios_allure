@@ -1,5 +1,5 @@
 const { container } = require('../../codeceptjs')
-const axios = require('../../codeceptjs/node_modules/axios').default
+const axios = require('../../axios').default
 
 
 axios.interceptors.request.use(function (config) {
